@@ -1,18 +1,22 @@
+/* Reset de estilos globais */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos gerais do corpo do documento */
 body {
     font-family: Arial, sans-serif;
 }
 
+/* Estilos para o cabeçalho */
 header {
     background-color: #f8f8f8;
     padding: 10px;
 }
 
+/* Estilos para a navegação */
 nav ul {
     display: flex;
     justify-content: center;
@@ -35,33 +39,38 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-img{
+/* Estilos para imagens */
+img {
     width: 1000px;
     height: 600px;
     margin-left: 18%;
-    
 }
 
+/* Estilos para títulos */
 h1 {
     text-align: center;
     margin-top: 20px;
     color: #fe9400;
 }
 
+/* Estilos para parágrafos */
 p {
     margin-bottom: 14px;
-
 }
 
+/* Estilos para botões */
 button {
-
     font-size: 1.5em;
     padding: 15px 30px;
     margin: 15px;
-    color: black; 
-    background-color: transparent; 
+    color: black;
+    background-color: transparent;
     border: 2px solid #fe9400;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    border-color: #ffcc00;
 }
