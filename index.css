@@ -1,18 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 2px 6px;
     box-sizing: border-box;
 }
 
+/* Estilos gerais do corpo do documento */
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px; /* Tamanho base da fonte */
 }
 
+/* Estilos para o cabeçalho */
 header {
     background-color: #f8f8f8;
     padding: 10px;
 }
 
+/* Estilos para a navegação */
 nav ul {
     display: flex;
     justify-content: center;
@@ -35,15 +39,29 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.imagem {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
-}
-
 h1 {
     text-align: center;
     margin-top: 20px;
     color: #fe9400;
+}
+/* Estilos para imagens */
+img {
+    width: fit-content;
+    max-width: fit-content;
+    height: auto;
+    display: block;
+    margin:auto; /* Centralize a imagem */
+}
+
+/* Estilos para telas pequenas (até 600px de largura) */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Empilhar itens verticalmente */
+    }
+    nav ul li {
+        margin: 10px 0; /* Espaçamento menor entre os itens */
+    }
+    h1 {
+        font-size: 24px; /* Tamanho menor para o título */
+    }
 }
