@@ -8,6 +8,7 @@
 /* Estilos gerais do corpo do documento */
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px; /* Tamanho base da fonte */
 }
 
 /* Estilos para o cabeçalho */
@@ -41,9 +42,10 @@ nav ul li a:hover {
 
 /* Estilos para imagens */
 img {
-    width: 1000px;
-    height: 600px;
-    margin-left: 18%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0; /* Centralize a imagem */
 }
 
 /* Estilos para títulos */
@@ -51,16 +53,18 @@ h1 {
     text-align: center;
     margin-top: 20px;
     color: #fe9400;
+    font-size: 1.5rem; /* Tamanho maior para títulos */
 }
 
 /* Estilos para parágrafos */
 p {
     margin-bottom: 14px;
+    font-size: 1rem; /* Tamanho padrão para parágrafos */
 }
 
 /* Estilos para botões */
 button {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding: 15px 30px;
     margin: 15px;
     color: black;
