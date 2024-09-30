@@ -42,7 +42,7 @@ nav ul li a:hover {
 
 /* Estilos para imagens */
 img {
-    width: fit-content;
+    width: 100%;
     max-width: fit-content;
     height: auto;
     display: block;
