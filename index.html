@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Início</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <p>Artigos</p>
-                <li><a href="./artigos/Artigo1.html">Artigo 1</a></li>
-                <li><a href="./artigos/Artigo2.html">Artigo 2</a></li>
-                <p>Propostas</p>
-                <li><a href="./propostas/Proposta1.html">Proposta 1</a></li>
-                <li><a href="./propostas/Proposta2.html">Proposta 2</a></li>
-                <p>Termos</p>
-                <li><a href="./TermosPrivacidade.html">Termos de Privacidade</a></li>
+                <li><a href="/index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="#">Artigos</a>
+                    <div class="dropdown-content">
+                        <a href="/artigos/Artigo1.html">Objetivos da ODS 2</a>
+                        <a href="/artigos/Artigo2.html">Fome Zero e Agricultura Sustentável</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Propostas</a>
+                    <div class="dropdown-content">
+                        <a href="/propostas/Proposta1.html">7 formas de ajudar a combater a fome no Brasil</a>
+                        <a href="/propostas/Proposta2.html">Cinco atitudes e ações da ONU para acabar com a fome</a>
+                    </div>
+                </li>
+                <li><a href="/TermosPrivacidade.html">Termos de Privacidade</a></li>
             </ul>
         </nav>
     </header>
